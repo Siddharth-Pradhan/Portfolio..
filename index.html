@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PortfoliO</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+   <div class="home">
+   <button class="home-but" onclick="document.getElementById('homepage').scrollIntoView({ behavior: 'smooth' });">
+      <i class="fa-solid fa-house" style="font-size: 25px;"></i>
+    </button>
+  </div>
+   <div class="container" id=homepage >
+
+      
+        <video class="back-vid" loop autoplay muted plays-inline src="vid/galaxy.mp4" type="video/mp4"></video>
+
+
+          <header style="position: fixed;">
+            <div class="left">
+              <h1 class="logo" style="cursor: pointer;"><span class="gradient">S.</span>P</h1>
+              <h1 class="namet"><span class="gradient">Siddharth</span>Pradhan</h1>
+            </div>
+            <ul class="midpor">
+              <li><a href="#About">About</a> </li>
+              <li><a href="#Projects">Projects</a> </li>
+              <li><a href="#contact">Contact</a> </li>
+                
+            </ul>
+
+          
+            
+            <div class="menu-icon"><i class="fa-solid fa-bars"></i> </div>
+
+          
+          </header>
+    
+
+
+          <div class="sidebar">
+            <div class="close"><i class="fa-solid fa-xmark"></i></div>
+            <ul>
+              <li class="sideli"><a href="#homepage">Home</a> </li>
+              <li class="sideli"><a href="#About">About Me</a> </li>
+              <li class="sideli"><a href="#Skills">Skills</a> </li>
+              <li class="sideli"><a href="#Projects">Projects</a> </li>
+              <li style="font-size: 100px;" class="sideli"><a href="#contact">Contact Me:</a> </li>
+
+
+                <div class="box-icons">
+                  <a href="https://www.instagram.com/its_me_sid_aka_sp" target="_blank"><img class="imgs" src="images/instagram.png"></a>
+                  <a href="https://x.com/cid0heart" target="_blank"><img class="imgs" src="images/twitter.png"></a>
+                  <a href="https://github.com/Siddharth-Pradhan" target="_blank"><img class="imgs" src="images/git2.png"></a>
+                  <a href="https://www.linkedin.com/in/siddharth-pradhan-47a3a028a/" target="_blank"><img class="imgs" src="images/linkedin.png"></a> 
+                 
+            </div>
+              
+            </ul>
+          </div>
+
+          <div class="blackhole">
+            <video loop autoplay muted plays-inline src="vid/blackhole.mp4" type="video/mp4"></video>
+          </div>
+          
+          <section class="hero">
+            <div class="hero-info autoBlur" >
+              <div class="hero-info-title">
+
+                <i class="fa-brands fa-sketch"></i>    Front-end Developer Portfolio
+              </div>
+              <h1><span class="gradient">Hola amigos!</span> I'm Siddharth Pradhan</h1>
+              <p>a passionate web developer with 3+ years of experience creating beautiful,functional and fun websites. 
+             </p>
+              <button><i class="fa-solid fa-paper-plane"></i>Contact Me</button>
+
+            </div>
+            <div class="hero-vid autoBlur " style=" mix-blend-mode:lighten;">
+             <img src="images/web.webp">
+            </div>
+
+            <div class="scroll"></div>
+          </section>
+
+
+
+          <section class="info-sec" id="About">
+
+            <hi class="sec-title autoDisplay"> <span class="gradient">Bits of</span> Me</hi>
+            <div class="info-cards">
+
+               <div class="card1"  >
+                <img class="dpimg" src="images/dpog.jpg" alt="my pic" >
+                <h1 style="padding-left:60px">And 👆 that's me </h1>
+                  <p>pretty much Hero material, right? Yeah, I know😎.</p>
+               </div>
+            
+
+             
+               <div class="card">
+                <h1 class="h11">Tech Stack</h1>
+                <p>I specialize in React, Vue.js, and modern CSS frameworks.
+                  My approach combines technical expertise with an eye for design, ensuring that every project I work on is both visually appealing and highly functional</p>
+                <img class="imgi"src="images/grid2.png" alt="pic of skills js,css etc">
+               </div>
+            
+
+
+             
+               <div class="card">
+                <h1>I'm very flexible with time zone communication & locations</h1>
+                <p> I'm based in India,odisha,bhuvaneshwar and open to remote work worldwide.
+                </p>
+                <video autoplay muted loop plays-inline src="vid/glob.mp4" type="video/mp4" alt="globe vid"></video>
+               </div>
+           
+
+             
+               <div class="card">
+                <img src="images/grid4.png" alt="randompic">
+                <h1>Additionally</h1>
+                <p>I'm multilingual and am fluent in 4 languages-English,Hindi,Telugu,Oriya'
+                   When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or in a room binge watching webseries.
+                </p>
+                
+               </div>
+            </div>
+
+          </section>
+
+
+
+        <section class="my-projects" id="Projects">
+            <h1 class="sec-title autoDisplay">My <span class="gradient">Projects</span></h1>
+
+             <div class="pro-card">
+                  <div class="pro-vid autoBlur" >
+                    <video  loop play-inline muted id="pro1" src="vid/project1.mp4"></video>
+                    <div class="hover-sign"></div>
+                  </div>
+                  <div class="pro-info fadein-left">
+                    <h1><span class="gradient1">Gradely</span></h1>
+                    <p>a responsive web-based grade calculator to compute SGPA and CGPA based on user-input course credits and
+                      grades,supporting multiple semesters.
+                      Optimized for all screen sizes with mobile-friendly layout and minimal load time.</p>
+                    <button  onclick="window.open('https://siddharth-pradhan.github.io/Gradely/', '_blank')"><i class="fa-solid fa-arrow-up-right-from-square">Website</i></button>
+                  </div>
+
+              </div>
+
+               <div class="pro-card">
+                  <div class="pro-vid autoBlur" >
+                    <video  loop play-inline muted id="pro2" src="vid/project1.mp4"></video>
+                    <div class="hover-sign"></div>
+                  </div>
+                  <div class="pro-info fadein-left">
+                    <h1><span class="gradient1">sunnyside</span></h1>
+                    <p>a responsive web application that fetches and displays real-time weather data for any city.
+                    Implemented geolocation-based search and dynamic weather updates including temperature, humidity, wind speed,
+                    and conditions.
+                    Utilized JavaScript Fetch API to handle API requests and parse JSON responses for live weather information.</p>
+                    <button  onclick="window.open('https://siddharth-pradhan.github.io/Sunnyside.web/', '_blank')"><i class="fa-solid fa-arrow-up-right-from-square">Website</i></button>
+                  </div>
+
+              </div>
+
+
+               <div class="pro-card">
+                  <div class="pro-vid autoBlur" >
+                    <video  loop play-inline muted id="pro3" src="vid/project1.mp4"></video>
+                    <div class="hover-sign"></div>
+                  </div>
+                  <div class="pro-info fadein-left">
+                    <h1><span class="gradient1">Simpler Portfolio</span></h1>
+                    <p>A simpler version of portfolio using mainly css and is much lighter compared to this portfolio so do check it out.</p>
+                    <button  onclick="window.open('https://siddharth-pradhan.github.io/Simpler-Portfolio/', '_blank')"><i class="fa-solid fa-arrow-up-right-from-square">Website</i></button>
+                  </div>
+
+              </div>
+         </section>
+
+
+
+
+
+          <section class="skills-sec" id="Skills">
+             <h1 class="sec-title autoDisplay">My <span class="gradient"> Skills</span></h1>
+
+              <div class="skill-box">
+                <img class="skill-image" src="images/digital brain (2).png">
+
+                <div id="vox"  class="designer autoDisplay">
+                  <h1 class="gradient">Designer<i class="fa-solid fa-laptop-code"></i></h1>
+                  <p>I'm a web designer and front-end developer skilled in<span class="gradient1">HTML</span>,<span class="gradient1">CSS</span > , <span class="gradient1">JavaScript</span>, and <span class="gradient1">React js</span>. I create responsive, visually appealing, and user-friendly interfaces with a focus on performance and accessibility. I enjoy combining design with code to build clean, functional websites that deliver great user experiences.
+                       </p>
+                </div>
+
+                <div id="vox"  class="coder autoDisplay">
+                  <h1 class="gradient">Coder  <i class="fa-solid fa-file-code"></i></h1>
+                  <p>I'm a passionate coder with a strong foundation in Data Structures & Algorithms, and proficiency in <span class="gradient1">C</span>,<span class="gradient1">C++</span > , <span class="gradient1">Python</span>, and <span class="gradient1">OOP principles</span>. I enjoy solving complex problems and writing clean, efficient code. My skills span both foundational computer science and practical development, enabling me to build robust and optimized solutions.</p>
+                </div>
+                
+                <div id="vox"    class="slider">
+              
+                  <div class="list">
+                    <button class="texty" style="background-color: #080020b7; border:none;cursor: pointer;" onclick="flip()">  <div class="item" style="--position: 1"  ><img class="im" src="images/10.png"> <p class="text" style="position: absolute; font-size: 25px; font-weight: bolder; font-family:'Brush Script MT', 'Segoe Script', 'Lucida Handwriting', cursive;"> <span class="gradient1">Html</span> </p></div>   </button>
+                    <button class="texty"style="background-color: #080020b7; border:none;cursor: pointer;" onclick="flip()">  <div class="item" style="--position: 2" ><img class="im" src="images/6.png" ><p class="text" style="position: absolute; font-size: 25px; font-weight: bolder; font-family:'Brush Script MT', 'Segoe Script', 'Lucida Handwriting', cursive;"> <span class="gradient1">CSS</span> </p></div>  </button>
+                    <button class="texty"style="background-color: #080020b7; border:none;cursor: pointer;" onclick="flip()">   <div class="item" style="--position: 3"  ><img class="im"src="images/JavaScript.png"><p class="text" style="position: absolute; font-size: 25px; font-weight: bolder; font-family:'Brush Script MT', 'Segoe Script', 'Lucida Handwriting', cursive;"> <span class="gradient1">jS</span> </p></div>  </button>
+                    <button class="texty"style="background-color: #080020b7; border:none;cursor: pointer;" onclick="flip()">   <div class="item" style="--position: 4"  ><img class="im"src="images/React.png"><p class="text" style="position: absolute; font-size: 25px; font-weight: bolder; font-family:'Brush Script MT', 'Segoe Script', 'Lucida Handwriting', cursive;"> <span class="gradient1">React js</span> </p></div> </button>
+                  </div>
+                
+                </div>
+              </div>
+          </section>
+
+
+
+
+
+
+
+   
+           <section class="contact-section " id="contact">
+            <h1 class="sec-title autoDisplay autoDisplay"><span class="gradient">Contact </span>Me</h1>
+
+            <div class="social-box autoBlur">
+                <a href="#"><i class="fa-solid fa-phone"></i> +91 9392646897</a>
+                <a href="#"><i class="fa-solid fa-envelope"></i>hellimmortal51new@.com</a>
+                <a href="#"><i class="fa-brands fa-instagram"></i>its_me_sid_aka_sp</a>
+                <div class="social-icons">
+                    <a href="#"><i class='bx bxl-youtube' ></i></a>
+                    <a href="#"><i class='bx bxl-twitter' ></i></a>
+                    <a href="#"><i class='bx bxl-facebook-circle' ></i></a>
+                </div>
+            </div>
+
+            <div class="contact-box autoBlur">
+                <p>Whether you're looking to build a new website, improve your existing platform, or bring a unique project to file. i'm here to help.</p>
+            
+                <p>Full Name</p>
+                <input placeholder="Your Full name" type="full name">
+
+                <p>Email Address</p>
+                <input placeholder="Your Email" type="Contact">
+
+                <p>Your Message</p>
+                <input  class="input-message" type="contact" placeholder="shaire your thoughts...">
+
+                <button>Send Message <i class="fa-regular fa-paper-plane"></i></button>
+            </div>
+        
+        </section> 
+
+
+
+
+
+
+          <section class="footer">
+            <h1 style="font-size: 12px;">©️2025, Made with ❤️‍🔥 by Siddharth Pradhan </h1>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
